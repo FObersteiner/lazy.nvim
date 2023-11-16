@@ -50,13 +50,13 @@ return {
 
       -- python
       pyright = {
-        mason = false,
+        -- mason = false,
         settings = {
           pyright = {
             autoImportCompletion = true,
           },
           python = {
-            pythonPath = "/home/floo/.pyenv/shims/python",
+            pythonPath = "$HOME/.pyenv/shims/python",
             analysis = {
               autoSearchPaths = true,
               diagnosticMode = "openFilesOnly",
@@ -67,7 +67,7 @@ return {
         },
       },
       ruff_lsp = {
-        mason = false,
+        -- mason = false,
       },
     },
 
