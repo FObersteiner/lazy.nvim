@@ -56,7 +56,7 @@ return {
             autoImportCompletion = true,
           },
           python = {
-            pythonPath = "$HOME/.pyenv/shims/python",
+            pythonPath = os.getenv("HOME") .. "/.pyenv/shims/python",
             analysis = {
               autoSearchPaths = true,
               diagnosticMode = "openFilesOnly",
