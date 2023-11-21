@@ -2,6 +2,8 @@ return {
   "neovim/nvim-lspconfig",
   opts = {
     servers = {
+      -- markdown
+      marksman = {},
 
       -- golang
       gopls = {

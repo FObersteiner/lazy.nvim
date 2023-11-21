@@ -9,6 +9,9 @@ return {
   --     },
   --   },
   -- },
+  --
+  -- disable in favor of nvim-surround:
   { "echasnovski/mini.surround", enabled = false },
   { "echasnovski/mini.pairs", enabled = false },
+  --
 }

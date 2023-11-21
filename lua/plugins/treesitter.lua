@@ -8,6 +8,8 @@ return {
         "gomod",
         "gowork",
         "gosum",
+        "markdown",
+        "markdown_inline",
         "ninja",
         "python",
         "rst",
