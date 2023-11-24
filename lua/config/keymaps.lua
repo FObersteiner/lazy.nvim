@@ -22,3 +22,10 @@ vim.keymap.set(
   ":LspRestart<CR>",
   { noremap = true, silent = true, desc = "Restart LSP" }
 )
+
+vim.keymap.set(
+  "n", --
+  "<leader>c;",
+  ":set ft=csv_semicolon<CR>",
+  { noremap = true, silent = true, desc = "Set file type csv sep=;" }
+)
