@@ -19,6 +19,9 @@ return {
       "taplo",
       -- json
       "json-lsp",
+      -- markdown
+      "marksman",
+      "markdownlint",
     },
   },
 }
