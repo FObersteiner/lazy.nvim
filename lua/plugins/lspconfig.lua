@@ -4,6 +4,10 @@ return {
     servers = {
       -- markdown
       -- marksman = {},
+      -- toml
+      taplo = {
+        --
+      },
 
       -- zig
       zls = {
@@ -80,6 +84,9 @@ return {
     },
 
     setup = {
+      -- toml
+      taplo = function() end,
+
       -- python
       ruff_lsp = function()
         require("lazyvim.util").lsp.on_attach(function(client, _)
@@ -91,7 +98,7 @@ return {
       end,
 
       -- golang
-      gopls = function(_, opts)
+      gopls = function()
         -- workaround for gopls not supporting semanticTokensProvider
         -- https://github.com/golang/go/issues/54531#issuecomment-1464982242
         require("lazyvim.util").lsp.on_attach(function(client, _)
