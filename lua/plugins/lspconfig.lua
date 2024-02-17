@@ -3,7 +3,9 @@ return {
   opts = {
     servers = {
       -- markdown
-      -- marksman = {},
+      marksman = {
+        --
+      },
       -- toml
       taplo = {
         --

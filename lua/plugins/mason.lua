@@ -22,6 +22,8 @@ return {
       -- markdown
       "marksman",
       "markdownlint",
+      -- formatting in general
+      "prettier",
     },
   },
 }
