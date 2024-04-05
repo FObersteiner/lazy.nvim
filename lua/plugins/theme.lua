@@ -2,12 +2,15 @@ return {
   {
     "projekt0n/github-nvim-theme",
   },
-  {
-    "ellisonleao/gruvbox.nvim",
-  },
-  {
-    "tanvirtin/monokai.nvim",
-  },
+  -- {
+  --   "ellisonleao/gruvbox.nvim",
+  -- },
+  -- {
+  --   "kvrohit/rasmus.nvim",
+  -- },
+  -- {
+  --   "tanvirtin/monokai.nvim",
+  -- },
   {
     "folke/tokyonight.nvim",
     opts = {
@@ -25,6 +28,7 @@ return {
       -- colorscheme = "gruvbox",
       -- colorscheme = "monokai",
       colorscheme = "tokyonight-storm",
+      -- colorscheme = "rasmus",
     },
   },
 }
