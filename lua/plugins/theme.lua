@@ -1,5 +1,8 @@
 return {
   {
+    "ribru17/bamboo.nvim",
+  },
+  {
     "projekt0n/github-nvim-theme",
   },
   -- {
@@ -8,9 +11,9 @@ return {
   -- {
   --   "kvrohit/rasmus.nvim",
   -- },
-  -- {
-  --   "tanvirtin/monokai.nvim",
-  -- },
+  {
+    "tanvirtin/monokai.nvim",
+  },
   {
     "folke/tokyonight.nvim",
     opts = {
@@ -25,9 +28,10 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
+      colorscheme = "bamboo",
       -- colorscheme = "gruvbox",
       -- colorscheme = "monokai",
-      colorscheme = "tokyonight-storm",
+      -- colorscheme = "tokyonight-storm",
       -- colorscheme = "rasmus",
     },
   },
