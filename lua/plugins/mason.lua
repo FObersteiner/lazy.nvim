@@ -6,6 +6,8 @@ return {
       "gopls",
       "gofumpt",
       "golines",
+      "gotests",
+      "impl",
       -- python
       "black",
       "ruff",
