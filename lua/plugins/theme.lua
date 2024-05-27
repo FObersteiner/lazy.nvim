@@ -5,12 +5,15 @@ return {
   {
     "projekt0n/github-nvim-theme",
   },
-  -- {
-  --   "ellisonleao/gruvbox.nvim",
-  -- },
-  -- {
-  --   "kvrohit/rasmus.nvim",
-  -- },
+  {
+    "catppuccin/nvim",
+  },
+  {
+    "ellisonleao/gruvbox.nvim",
+  },
+  {
+    "kvrohit/rasmus.nvim",
+  },
   {
     "tanvirtin/monokai.nvim",
   },
@@ -29,10 +32,11 @@ return {
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "bamboo",
+      -- colorscheme = "catppuccin",
       -- colorscheme = "gruvbox",
       -- colorscheme = "monokai",
-      -- colorscheme = "tokyonight-storm",
       -- colorscheme = "rasmus",
+      -- colorscheme = "tokyonight-storm",
     },
   },
 }
