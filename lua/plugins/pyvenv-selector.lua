@@ -13,7 +13,9 @@ return {
     -- Keymap to retrieve the venv from a cache (the one previously used for the same project directory).
     { "<leader>vc", "<cmd>VenvSelectCached<cr>", desc = "select previous Python virtual environment" },
   },
-  setup = {
-    pyenv_path = vim.env.HOME .. "/.pyenv/version",
-  },
+  config = function()
+    require("venv-selector").setup({
+      pyenv_path = vim.env.HOME .. "/.pyenv/versions/",
+    })
+  end,
 }
