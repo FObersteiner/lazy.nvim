@@ -27,6 +27,9 @@ return {
       },
     },
   },
+  {
+    "hendriknielaender/stardust.nvim",
+  },
 
   {
     "LazyVim/LazyVim",
@@ -36,6 +39,7 @@ return {
       -- colorscheme = "gruvbox",
       -- colorscheme = "monokai",
       -- colorscheme = "rasmus",
+      -- colorscheme = "stardust",
       -- colorscheme = "tokyonight-storm",
     },
   },
