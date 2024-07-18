@@ -67,23 +67,23 @@ return {
       },
 
       -- python
-      pyright = {
-        -- mason = false,
-        settings = {
-          pyright = {
-            autoImportCompletion = true,
-          },
-          python = {
-            pythonPath = vim.env.HOME .. "/.pyenv/shims/python",
-            analysis = {
-              autoSearchPaths = true,
-              diagnosticMode = "openFilesOnly",
-              useLibraryCodeForTypes = true,
-              -- typeCheckingMode = "off",
-            },
-          },
-        },
-      },
+      -- pyright = {
+      --   -- mason = false,
+      --   settings = {
+      --     pyright = {
+      --       autoImportCompletion = true,
+      --     },
+      --     python = {
+      --       pythonPath = vim.env.HOME .. "/.pyenv/shims/python",
+      --       analysis = {
+      --         autoSearchPaths = true,
+      --         diagnosticMode = "openFilesOnly",
+      --         useLibraryCodeForTypes = true,
+      --         -- typeCheckingMode = "off",
+      --       },
+      --     },
+      --   },
+      -- },
       ruff_lsp = {
         -- mason = false,
       },
@@ -94,14 +94,14 @@ return {
       taplo = function() end,
 
       -- python
-      ruff_lsp = function()
-        require("lazyvim.util").lsp.on_attach(function(client, _)
-          if client.name == "ruff" then
-            -- Disable hover in favor of Pyright
-            client.server_capabilities.hoverProvider = false
-          end
-        end)
-      end,
+      -- ruff_lsp = function()
+      --   require("lazyvim.util").lsp.on_attach(function(client, _)
+      --     if client.name == "ruff" then
+      --       -- Disable hover in favor of Pyright
+      --       client.server_capabilities.hoverProvider = false
+      --     end
+      --   end)
+      -- end,
 
       -- golang
       gopls = function()
