@@ -11,7 +11,7 @@ return {
       -- python
       "black",
       "ruff",
-      "pyright",
+      -- "pyright",
       -- zig
       "zls",
       -- lua
