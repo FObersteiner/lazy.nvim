@@ -3,8 +3,14 @@ return {
     "ribru17/bamboo.nvim",
   },
   {
-    "projekt0n/github-nvim-theme",
+    "shaunsingh/solarized.nvim",
+    -- config = function()
+    --   vim.o.background = "dark" -- 'dark' or 'light'
+    -- end,
   },
+  -- {
+  --   "projekt0n/github-nvim-theme",
+  -- },
   -- {
   --   "catppuccin/nvim",
   -- },
@@ -40,6 +46,7 @@ return {
       -- colorscheme = "gruvbox",
       -- colorscheme = "monokai",
       -- colorscheme = "rasmus",
+      -- colorscheme = "solarized",
       -- colorscheme = "stardust",
       -- colorscheme = "tokyonight-storm",
     },
