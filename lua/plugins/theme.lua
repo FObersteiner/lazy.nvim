@@ -18,9 +18,6 @@ return {
   --   "ellisonleao/gruvbox.nvim",
   -- },
   -- {
-  --   "kvrohit/rasmus.nvim",
-  -- },
-  -- {
   --   "tanvirtin/monokai.nvim",
   -- },
   -- {
@@ -33,9 +30,6 @@ return {
   --     },
   --   },
   -- },
-  -- {
-  --   "hendriknielaender/stardust.nvim",
-  -- },
 
   {
     "LazyVim/LazyVim",
@@ -45,9 +39,7 @@ return {
       -- colorscheme = "github_light",
       -- colorscheme = "gruvbox",
       -- colorscheme = "monokai",
-      -- colorscheme = "rasmus",
       -- colorscheme = "solarized",
-      -- colorscheme = "stardust",
       -- colorscheme = "tokyonight-storm",
     },
   },

@@ -18,6 +18,13 @@ vim.keymap.set(
 
 vim.keymap.set(
   "n", --
+  "<leader>bm",
+  ":bprev<CR>",
+  { noremap = true, silent = true, desc = "Previous Buffer" }
+)
+
+vim.keymap.set(
+  "n", --
   "<leader>cL",
   ":LspRestart<CR>",
   { noremap = true, silent = true, desc = "Restart LSP" }
@@ -28,4 +35,11 @@ vim.keymap.set(
   "<leader>c;",
   ":set ft=csv_semicolon<CR>",
   { noremap = true, silent = true, desc = "Set file type csv sep=;" }
+)
+
+vim.keymap.set(
+  "n", --
+  "<leader>fx",
+  ":term<CR>i",
+  { noremap = true, silent = true, desc = "Terminal in Window" }
 )
