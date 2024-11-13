@@ -15,4 +15,7 @@ return {
   { "echasnovski/mini.pairs", enabled = false },
   --
   -- { "tadmccorkle/markdown.nvim", enabled = false },
+  --
+  -- Zig bug in friendly snippets
+  { "garymjr/nvim-snippets", enabled = false },
 }
