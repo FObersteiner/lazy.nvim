@@ -1,3 +1,3 @@
 return {
-  { "garymjr/nvim-snippets", opts = { friendly_snippets = false } },
+  { "garymjr/nvim-snippets", opts = { ignored_filetypes = { "zig" } } },
 }
