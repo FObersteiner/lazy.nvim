@@ -5,6 +5,7 @@ return {
     formatters_by_ft = {
       ["css"] = { "prettier" },
       ["scss"] = { "prettier" },
+      ["fish"] = { "fish_indent" },
       ["javascript"] = { "prettier" },
       ["javascriptreact"] = { "prettier" },
       ["json"] = { "prettier" },
@@ -21,6 +22,7 @@ return {
       ["typescriptreact"] = { "prettier" },
       ["vue"] = { "prettier" },
       ["yaml"] = { "prettier" },
+      ["sh"] = { "shfmt" },
     },
     -- format_on_save = {
     --   lsp_fallback = true,
