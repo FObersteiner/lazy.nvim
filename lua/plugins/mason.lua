@@ -10,8 +10,9 @@ return {
       "impl",
       -- python
       "black",
+      "debugpy",
       "ruff",
-      -- "pyright",
+      "ruff-lsp",
       -- zig
       "zls",
       -- lua

@@ -2,12 +2,12 @@ return {
   {
     "ribru17/bamboo.nvim",
   },
-  {
-    "shaunsingh/solarized.nvim",
-    -- config = function()
-    --   vim.o.background = "dark" -- 'dark' or 'light'
-    -- end,
-  },
+  -- {
+  --   "shaunsingh/solarized.nvim",
+  --   config = function()
+  --     vim.o.background = "dark" -- 'dark' or 'light'
+  --   end,
+  -- },
   -- {
   --   "projekt0n/github-nvim-theme",
   -- },
