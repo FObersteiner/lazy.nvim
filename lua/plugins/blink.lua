@@ -20,9 +20,11 @@ return {
     -- see the "default configuration" section below for full documentation on how to define
     -- your own keymap.
     keymap = {
-      preset = "enter",
+      -- preset = "enter",
+      preset = "default",
       ["<S-Tab>"] = { "select_prev", "fallback" },
       ["<Tab>"] = { "select_next", "fallback" },
+      ["<C-Enter>"] = { "accept", "fallback" },
       --
       --   -- disable a keymap from the preset
       --   ['<C-e>'] = {},
