@@ -24,7 +24,7 @@ return {
       preset = "default",
       ["<S-Tab>"] = { "select_prev", "fallback" },
       ["<Tab>"] = { "select_next", "fallback" },
-      ["<C-Enter>"] = { "accept", "fallback" },
+      ["<M-Enter>"] = { "accept", "fallback" },
       --
       --   -- disable a keymap from the preset
       --   ['<C-e>'] = {},
