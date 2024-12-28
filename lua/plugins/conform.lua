@@ -17,7 +17,7 @@ return {
       ["html"] = { "prettier" },
       ["markdown"] = { "markdownlint" },
       ["markdown.mdx"] = { "markdownlint" },
-      ["python"] = { "ruff", "black", "isort" },
+      ["python"] = { "ruff" },
       ["typescript"] = { "prettier" },
       ["typescriptreact"] = { "prettier" },
       ["vue"] = { "prettier" },

@@ -67,42 +67,34 @@ return {
       },
 
       -- python
-      -- pyright = {
-      --   -- mason = false,
-      --   settings = {
-      --     pyright = {
-      --       autoImportCompletion = true,
-      --     },
-      --     python = {
-      --       pythonPath = vim.env.HOME .. "/.pyenv/shims/python",
-      --       analysis = {
-      --         autoSearchPaths = true,
-      --         diagnosticMode = "openFilesOnly",
-      --         useLibraryCodeForTypes = true,
-      --         -- typeCheckingMode = "off",
-      --       },
-      --     },
-      --   },
-      -- },
-      ruff_lsp = {
-        -- mason = false,
+      ruff = {
+        cmd_env = { RUFF_TRACE = "messages" },
+        init_options = {
+          settings = {
+            logLevel = "error",
+            ignoreStandardLibrary = true,
+            organizeImports = true,
+            fixAll = true,
+            lint = {
+              enable = true,
+              run = "onType",
+              args = {
+                "--line-length=100",
+              },
+            },
+          },
+        },
+        keys = {
+          {
+            "<leader>co",
+            LazyVim.lsp.action["source.organizeImports"],
+            desc = "Organize Imports",
+          },
+        },
       },
     },
 
     setup = {
-      -- toml
-      taplo = function() end,
-
-      -- python
-      -- ruff_lsp = function()
-      --   require("lazyvim.util").lsp.on_attach(function(client, _)
-      --     if client.name == "ruff" then
-      --       -- Disable hover in favor of Pyright
-      --       client.server_capabilities.hoverProvider = false
-      --     end
-      --   end)
-      -- end,
-
       -- golang
       gopls = function()
         -- workaround for gopls not supporting semanticTokensProvider
